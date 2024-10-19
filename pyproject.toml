@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "noshita-2024-ongagawa"
+version = "0.1.0"
+description = ""
+authors = ["Noshita, Koji <noshita@morphometrics.jp>"]
+readme = "README.md"
+packages = [{ include = "utils", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "<2.1"
+scipy = "^1.14.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+pandas = "^2.2.3"
+pyarrow = "^17.0.0"
+tqdm = "^4.66.5"
+plotly = "^5.24.1"
+jupyterlab = "^4.2.5"
+scikit-learn = "1.3.2"
+spherical = "^1.0.14"
+spharm = { git = "https://github.com/MorphometricsGroup/spharm.git" }
+ktch = "^0.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
