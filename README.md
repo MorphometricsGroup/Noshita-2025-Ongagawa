@@ -1,5 +1,7 @@
 # Noshita-2025-Ongagawa
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14608052.svg)](https://doi.org/10.5281/zenodo.14608052)
+
 ## Installation
 
 ```sh
