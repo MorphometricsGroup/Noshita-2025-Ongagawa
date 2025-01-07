@@ -1,11 +1,11 @@
-# Ongagawa
+# Noshita_2025_Ongagawa
 
 
 
 ## Installation
 
 ```sh
-poetry install --no-root
+poetry install
 ```
 
 ## License
